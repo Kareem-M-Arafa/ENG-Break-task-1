@@ -1,0 +1,152 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 550;
+font-size: 20px;
+margin: 0
+}
+
+nav {
+    background-color: #fff;
+    padding: 2% 5%;
+    font-size: 150%;
+    box-shadow: 15px 0 30px #FFC2BC;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999999;
+}
+
+.logo {
+    background-color: #a19a91;
+    color: #fff;
+    padding: 1.5% 2%;
+    border-radius: 50%;
+    margin-right: 20px
+}
+
+.teamName {
+color: #a19a91
+}
+
+a {
+color: #2c98f0;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s; }
+a:hover, a:active, a:focus {
+    color: #210606;
+    outline: none;
+    text-decoration: none; }
+
+.parent {
+    margin: 0;
+    height: 1000px;
+    display: -webkit-box
+}
+
+.left-side
+{
+    background-color:#FFEDE6; 
+    height:100%;
+    width: 30%;
+    padding: 20px;
+}
+
+.right-side
+{ 
+    height:100%;
+    width: 70%;
+    background:#fff;
+}
+
+.inside-right
+{
+	margin-top:120px;
+	margin-left:100px;
+	}
+    
+.pic
+{ 
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul
+{
+    list-style-type:circle;}
+    
+    
+ul, h4{
+    color:#001d4a;
+}
+
+.f4 {
+    background: #a19a91;
+    padding: 30px;
+    color: #FFF;
+
+}
+
+.f4 i {
+    font-size: 50px;
+    margin-bottom: 20px
+}
+
+h3{
+        font-weight: bold;
+        color:#383a44;
+}
+
+img , h1{
+    
+    display: block
+    color:#6c6862;
+    text-align:center;
+}
+
+.button{
+display: inline-block;
+padding: 15px 25px;
+margin-top:10px;
+margin-left:150px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #a19a91;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #210606}
+
+.button:active {
+background-color: #001d4a;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+
+h1{
+    -webkit-transition: 1.0s;
+    color: #a19a91
+        
+}
+
+.f2{
+    -webkit-transition: 1.0s;
+}
+
+h4{
+    -webkit-transition: 1.0s;
+}
